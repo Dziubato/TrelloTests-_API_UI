@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Final-Project-group5-task1--master" />
         <module name="FinalProject" />
+        <module name="TrelloTests _API_UI" />
       </profile>
     </annotationProcessing>
   </component>

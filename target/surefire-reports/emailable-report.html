@@ -9,15 +9,151 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">70 088</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">3</td><td class="num">80 404</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">TrelloTests</td><td><a href="#m0">deleteLabel</a></td><td rowspan="1">1589185602693</td><td rowspan="1">268</td></tr><tr class="passedeven"><td><a href="#m1">deleteLabelUi</a></td><td rowspan="1">1589185647558</td><td rowspan="1">11739</td></tr><tr class="passedeven"><td><a href="#m2">deleteMember</a></td><td rowspan="1">1589185600918</td><td rowspan="1">1046</td></tr><tr class="passedeven"><td><a href="#m3">deleteMemberUi</a></td><td rowspan="1">1589185633939</td><td rowspan="1">11145</td></tr><tr class="passedeven"><td><a href="#m4">unArchiveList</a></td><td rowspan="1">1589185602399</td><td rowspan="1">283</td></tr><tr class="passedeven"><td><a href="#m5">unArchiveListUi</a></td><td rowspan="1">1589185645088</td><td rowspan="1">2468</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">TrelloTests</td><td><a href="#m0">deleteLabelUi</a></td><td rowspan="1">1589209576262</td><td rowspan="1">10564</td></tr><tr class="failedeven"><td><a href="#m1">deleteMemberUi</a></td><td rowspan="1">1589209545550</td><td rowspan="1">20069</td></tr><tr class="failedeven"><td><a href="#m2">unArchiveListUi</a></td><td rowspan="1">1589209565647</td><td rowspan="1">10607</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">TrelloTests</td><td><a href="#m3">deleteLabel</a></td><td rowspan="1">1589209520385</td><td rowspan="1">280</td></tr><tr class="passedeven"><td><a href="#m4">deleteMember</a></td><td rowspan="1">1589209516057</td><td rowspan="1">3491</td></tr><tr class="passedeven"><td><a href="#m5">unArchiveList</a></td><td rowspan="1">1589209520045</td><td rowspan="1">332</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">TrelloTests#deleteLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TrelloTests#deleteLabelUi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TrelloTests#deleteMember</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TrelloTests#deleteMemberUi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TrelloTests#unArchiveList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TrelloTests#unArchiveListUi</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">TrelloTests#deleteLabelUi</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at ui.UiRequest.deleteLabelUi_aroundBody4(UiRequest.java:61)
+	at ui.UiRequest$AjcClosure5.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.deleteLabelUi(UiRequest.java:59)
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 44 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 56 more
+Caused by: Element not found {div.js-card-details}
+Expected: exist
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: div.js-card-details
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy27.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 61 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: div.js-card-details
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=div.js-card-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:30)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.commands.GetWrappedElement.execute(GetWrappedElement.java:11)
+	at com.codeborne.selenide.commands.GetWrappedElement.execute(GetWrappedElement.java:8)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:148)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	... 67 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TrelloTests#deleteMemberUi</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: NoSuchElementException: Unable to locate element: div[title=&apos;Board485.4844135990989&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at ui.UiRequest.deleteMember_aroundBody0(UiRequest.java:39)
+	at ui.UiRequest$AjcClosure1.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.deleteMember(UiRequest.java:38)
+	at TrelloTests.deleteMemberUi(TrelloTests.java:43)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TrelloTests#unArchiveListUi</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">Element not found {a.js-open-more}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: a.js-open-more
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:65)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:87)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:148)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy27.click(Unknown Source)
+	at ui.UiRequest.unArchiveListUi_aroundBody2(UiRequest.java:50)
+	at ui.UiRequest$AjcClosure3.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.unArchiveListUi(UiRequest.java:50)
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: a.js-open-more
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=a.js-open-more}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:30)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:50)
+	... 43 more
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TrelloTests#deleteLabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TrelloTests#deleteMember</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TrelloTests#unArchiveList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

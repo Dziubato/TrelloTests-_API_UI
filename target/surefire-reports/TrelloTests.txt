@@ -1,4 +1,62 @@
 -------------------------------------------------------------------------------
 Test set: TrelloTests
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 92.568 s - in TrelloTests
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 100.544 s <<< FAILURE! - in TrelloTests
+deleteMemberUi(TrelloTests)  Time elapsed: 19.974 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: NoSuchElementException: Unable to locate element: div[title='Board485.4844135990989'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+	at TrelloTests.deleteMemberUi(TrelloTests.java:43)
+
+unArchiveListUi(TrelloTests)  Time elapsed: 10.612 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {a.js-open-more}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: a.js-open-more
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: a.js-open-more
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=a.js-open-more}
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+
+deleteLabelUi(TrelloTests)  Time elapsed: 10.573 s  <<< FAILURE!
+org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: java.lang.reflect.InvocationTargetException
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {div.js-card-details}
+Expected: exist
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: div.js-card-details
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: div.js-card-details
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=div.js-card-details}
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+

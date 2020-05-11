@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TrelloTests" time="92.568" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TrelloTests" time="100.544" tests="6" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="D:\QA School\Final-Project-group5-task1--master\target\test-classes;D:\QA School\Final-Project-group5-task1--master\target\classes;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Таня\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Таня\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Таня\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Таня\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Таня\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Таня\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Таня\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Таня\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Таня\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Таня\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Таня\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\retrofit\2.3.0\retrofit-2.3.0.jar;C:\Users\Таня\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Таня\.m2\repository\com\codeborne\selenide\5.10.0\selenide-5.10.0.jar;C:\Users\Таня\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Таня\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Таня\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Таня\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Таня\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Таня\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Таня\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\Таня\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.class.path" value="D:\QA School\TrelloTests _API_UI\target\test-classes;D:\QA School\TrelloTests _API_UI\target\classes;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Таня\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Таня\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Таня\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Таня\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Таня\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Таня\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Таня\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Таня\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Таня\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Таня\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Таня\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\retrofit\2.3.0\retrofit-2.3.0.jar;C:\Users\Таня\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Таня\.m2\repository\com\codeborne\selenide\5.10.0\selenide-5.10.0.jar;C:\Users\Таня\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Таня\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Таня\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Таня\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Таня\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Таня\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Таня\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\Таня\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,21 +18,21 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\2106~1\AppData\Local\Temp\surefire9058933610270861382\surefirebooter3077502879110003247.jar C:\Users\Таня\AppData\Local\Temp\surefire9058933610270861382 2020-05-11T11-26-11_682-jvmRun1 surefire8118376638621284476tmp surefire_01254011569865788266tmp"/>
-    <property name="surefire.test.class.path" value="D:\QA School\Final-Project-group5-task1--master\target\test-classes;D:\QA School\Final-Project-group5-task1--master\target\classes;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Таня\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Таня\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Таня\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Таня\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Таня\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Таня\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Таня\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Таня\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Таня\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Таня\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Таня\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\retrofit\2.3.0\retrofit-2.3.0.jar;C:\Users\Таня\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Таня\.m2\repository\com\codeborne\selenide\5.10.0\selenide-5.10.0.jar;C:\Users\Таня\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Таня\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Таня\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Таня\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Таня\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Таня\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Таня\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\Таня\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\2106~1\AppData\Local\Temp\surefire5052112135192570398\surefirebooter151517739285991220.jar C:\Users\Таня\AppData\Local\Temp\surefire5052112135192570398 2020-05-11T18-04-50_958-jvmRun1 surefire1710320388735035409tmp surefire_05992175671692552036tmp"/>
+    <property name="surefire.test.class.path" value="D:\QA School\TrelloTests _API_UI\target\test-classes;D:\QA School\TrelloTests _API_UI\target\classes;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Таня\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Таня\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Таня\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Таня\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Таня\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Таня\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Таня\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Таня\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Таня\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Таня\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Таня\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Таня\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\retrofit\2.3.0\retrofit-2.3.0.jar;C:\Users\Таня\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Таня\.m2\repository\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;C:\Users\Таня\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Таня\.m2\repository\com\codeborne\selenide\5.10.0\selenide-5.10.0.jar;C:\Users\Таня\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Таня\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Таня\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Таня\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Таня\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Таня\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Таня\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Таня\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Таня\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-testng\2.6.0\allure-testng-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.6.0\allure-descriptions-javadoc-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure-java-commons\2.6.0\allure-java-commons-2.6.0.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-api\1.0-BETA6\allure2-model-api-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0-BETA6\allure2-model-pojo-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Таня\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0-BETA6\allure2-model-jackson-1.0-BETA6.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.7.0\jackson-databind-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.7.0\jackson-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.7.0\jackson-core-2.7.0.jar;C:\Users\Таня\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Таня\.m2\repository\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;C:\Users\Таня\.m2\repository\org\jooq\joor\0.9.6\joor-0.9.6.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Таня\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="allure.results.directory" value="D:\QA School\Final-Project-group5-task1--master\target/allure-results"/>
+    <property name="allure.results.directory" value="D:\QA School\TrelloTests _API_UI\target/allure-results"/>
     <property name="user.home" value="C:\Users\Таня"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="basedir" value="D:\QA School\Final-Project-group5-task1--master"/>
+    <property name="basedir" value="D:\QA School\TrelloTests _API_UI"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\2106~1\AppData\Local\Temp\surefire9058933610270861382\surefirebooter3077502879110003247.jar;C:\Users\Таня\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2106~1\AppData\Local\Temp\surefire5052112135192570398\surefirebooter151517739285991220.jar;C:\Users\Таня\.m2\repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,13 +48,12 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\2106~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_241"/>
-    <property name="user.dir" value="D:\QA School\Final-Project-group5-task1--master"/>
+    <property name="user.dir" value="D:\QA School\TrelloTests _API_UI"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="idea.version2019.3.4" value="true"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Таня\AppData\Local\Microsoft\WindowsApps;C:\Users\Таня\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Таня\AppData\Roaming\npm;D:\Tools\gradle-6.3\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\apache-maven-3.6.3\bin;D:\QA School\TrelloTests _API_UI\.allure\allure-2.6.0\bin;C:\Users\Таня\scoop\shims;C:\Users\Таня\AppData\Local\Microsoft\WindowsApps;C:\Users\Таня\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Таня\AppData\Roaming\npm;D:\Tools\gradle-6.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.241-b07"/>
@@ -62,10 +61,367 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="deleteMember" classname="TrelloTests" time="1.306"/>
-  <testcase name="unArchiveList" classname="TrelloTests" time="0.287"/>
-  <testcase name="deleteLabel" classname="TrelloTests" time="0.276"/>
-  <testcase name="deleteMemberUi" classname="TrelloTests" time="11.115"/>
-  <testcase name="unArchiveListUi" classname="TrelloTests" time="2.465"/>
-  <testcase name="deleteLabelUi" classname="TrelloTests" time="11.741"/>
+  <testcase name="deleteMember" classname="TrelloTests" time="1.435"/>
+  <testcase name="unArchiveList" classname="TrelloTests" time="0.483"/>
+  <testcase name="deleteLabel" classname="TrelloTests" time="0.266"/>
+  <testcase name="deleteMemberUi" classname="TrelloTests" time="19.974">
+    <failure message="Expected condition failed: waiting for element to be clickable: NoSuchElementException: Unable to locate element: div[title=&apos;Board485.4844135990989&apos;] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element to be clickable: NoSuchElementException: Unable to locate element: div[title='Board485.4844135990989'] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+	at TrelloTests.deleteMemberUi(TrelloTests.java:43)
+</failure>
+    <system-out><![CDATA[--> DELETE https://api.trello.com/1/boards/5eb969a79126e25a4c679b56?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7 http/1.1
+--> END DELETE
+<-- 200 OK https://api.trello.com/1/boards/5eb969a79126e25a4c679b56?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7 (591ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2086.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 290
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 90
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 190
+X-Server-Time: 1589209519160
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:19 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+<-- END HTTP (binary 16-byte body omitted)
+
+--> POST https://api.trello.com/1/boards?name=Board485.4844135990989 http/1.1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 117
+
+{"key":"d45b4b89d481b0cb862e50b2f2ff2d96","token":"a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7"}
+--> END POST (117-byte body)
+<-- 200 OK https://api.trello.com/1/boards?name=Board485.4844135990989 (386ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2086.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 99
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 299
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 199
+X-Server-Time: 1589209538932
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:38 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c2a7c67983a0caefa7","name":"Board485.4844135990989","desc":"","descData":null,"closed":false,"idOrganization":null,"idEnterprise":null,"pinned":false,"url":"https://trello.com/b/jmEaFAhp/board4854844135990989","shortUrl":"https://trello.com/b/jmEaFAhp","prefs":{"permissionLevel":"private","hideVotes":false,"voting":"disabled","comments":"members","invitations":"members","selfJoin":true,"cardCovers":true,"isTemplate":false,"cardAging":"regular","calendarFeedEnabled":false,"background":"blue","backgroundImage":null,"backgroundImageScaled":null,"backgroundTile":false,"backgroundBrightness":"dark","backgroundColor":"#0079BF","backgroundBottomColor":"#0079BF","backgroundTopColor":"#0079BF","canBePublic":true,"canBeEnterprise":true,"canBeOrg":true,"canBePrivate":true,"canInvite":true},"labelNames":{"green":"","yellow":"","orange":"","red":"","purple":"","blue":"","sky":"","lime":"","pink":"","black":""},"limits":{}}
+<-- END HTTP (936-byte body)
+
+--> POST https://api.trello.com/1/lists?name=List76.5732881357148&idBoard=5eb969c2a7c67983a0caefa7 http/1.1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 117
+
+{"key":"d45b4b89d481b0cb862e50b2f2ff2d96","token":"a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7"}
+--> END POST (117-byte body)
+<-- 200 OK https://api.trello.com/1/lists?name=List76.5732881357148&idBoard=5eb969c2a7c67983a0caefa7 (1694ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2085.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 298
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 98
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 198
+X-Server-Time: 1589209539258
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:39 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c38ddf7e32cf52b2b3","name":"List76.5732881357148","closed":false,"pos":8192,"idBoard":"5eb969c2a7c67983a0caefa7","limits":{}}
+<-- END HTTP (138-byte body)
+
+--> POST https://api.trello.com/1/cards?idList=5eb969c38ddf7e32cf52b2b3 http/1.1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 117
+
+{"key":"d45b4b89d481b0cb862e50b2f2ff2d96","token":"a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7"}
+--> END POST (117-byte body)
+<-- 200 OK https://api.trello.com/1/cards?idList=5eb969c38ddf7e32cf52b2b3 (935ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2085.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 99
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 299
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 199
+X-Server-Time: 1589209541406
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:41 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:41 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c51ed1a789c0c198f4","checkItemStates":[],"closed":false,"dateLastActivity":"2020-05-11T15:05:41.223Z","desc":"","descData":{"emoji":{}},"dueReminder":null,"idBoard":"5eb969c2a7c67983a0caefa7","idList":"5eb969c38ddf7e32cf52b2b3","idMembersVoted":[],"idShort":1,"idAttachmentCover":null,"idLabels":[],"manualCoverAttachment":false,"name":"","pos":16384,"shortLink":"2jpjLZJs","isTemplate":false,"dueComplete":false,"due":null,"email":null,"labels":[],"shortUrl":"https://trello.com/c/2jpjLZJs","url":"https://trello.com/c/2jpjLZJs/1--","cover":{"idAttachment":null,"color":null,"idUploadedBackground":null,"size":"normal","brightness":"light"},"idMembers":[],"attachments":[],"badges":{"attachmentsByType":{"trello":{"board":0,"card":0}},"location":false,"votes":0,"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"checkItemsEarliestDue":null,"comments":0,"attachments":0,"description":false,"due":null,"dueComplete":false},"subscribed":false,"idChecklists":[],"stickers":[],"limits":{}}
+<-- END HTTP (1045-byte body)
+
+--> PUT https://api.trello.com/1/boards/5eb969c2a7c67983a0caefa7/members/user95411438?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7&type=normal http/1.1
+Content-Length: 0
+
+
+--> END PUT (0-byte body)
+<-- 200 OK https://api.trello.com/1/boards/5eb969c2a7c67983a0caefa7/members/user95411438?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7&type=normal (993ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2085.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 298
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 98
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 198
+X-Server-Time: 1589209542099
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:42 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:42 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c2a7c67983a0caefa7","members":[{"id":"5eb1aec7363fd4506eec6582","username":"finalproject500","confirmed":true,"memberType":"normal","activityBlocked":false,"avatarHash":null,"avatarUrl":null,"fullName":"Final Project","idMemberReferrer":null,"initials":"FP","nonPublic":{},"nonPublicAvailable":false},{"id":"5e60c11dcae82e8227ac399e","username":"user95411438","confirmed":true,"memberType":"normal","activityBlocked":false,"avatarHash":null,"avatarUrl":null,"fullName":"Антон Верета","idMemberReferrer":null,"initials":"АВ","nonPublic":{},"nonPublicAvailable":true}],"memberships":[{"id":"5eb969c2a7c67983a0caefab","idMember":"5eb1aec7363fd4506eec6582","memberType":"admin","unconfirmed":false,"deactivated":false},{"id":"5eb969c5a5f72a668acfabe3","idMember":"5e60c11dcae82e8227ac399e","memberType":"normal","unconfirmed":false,"deactivated":false}]}
+<-- END HTTP (876-byte body)
+
+--> PUT https://api.trello.com/1/lists/5eb969c38ddf7e32cf52b2b3/closed?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7&value=true http/1.1
+Content-Length: 0
+
+
+--> END PUT (0-byte body)
+<-- 200 OK https://api.trello.com/1/lists/5eb969c38ddf7e32cf52b2b3/closed?key=d45b4b89d481b0cb862e50b2f2ff2d96&token=a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7&value=true (422ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2085.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 297
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 97
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 197
+X-Server-Time: 1589209542938
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:43 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c38ddf7e32cf52b2b3","name":"List76.5732881357148","closed":true,"pos":8192,"idBoard":"5eb969c2a7c67983a0caefa7"}
+<-- END HTTP (125-byte body)
+
+--> POST https://api.trello.com/1/cards/5eb969c51ed1a789c0c198f4/labels?color=green http/1.1
+Content-Type: application/json; charset=UTF-8
+Content-Length: 117
+
+{"key":"d45b4b89d481b0cb862e50b2f2ff2d96","token":"a6e2c758f8d6059056b624ac36540a0dac1cd2b10474aa3db9135d3332f45da7"}
+--> END POST (117-byte body)
+<-- 200 OK https://api.trello.com/1/cards/5eb969c51ed1a789c0c198f4/labels?color=green (444ms)
+X-DNS-Prefetch-Control: off
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+X-XSS-Protection: 1; mode=block
+Surrogate-Control: no-store
+X-Trello-Version: 1.2086.0
+X-Trello-Environment: Production
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+X-RATE-LIMIT-API-TOKEN-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-TOKEN-MAX: 100
+X-RATE-LIMIT-API-TOKEN-REMAINING: 96
+X-RATE-LIMIT-API-KEY-INTERVAL-MS: 10000
+X-RATE-LIMIT-API-KEY-MAX: 300
+X-RATE-LIMIT-API-KEY-REMAINING: 296
+X-RATE-LIMIT-MEMBER-INTERVAL-MS: 10000
+X-RATE-LIMIT-MEMBER-MAX: 200
+X-RATE-LIMIT-MEMBER-REMAINING: 196
+X-Server-Time: 1589209543356
+Content-Type: application/json; charset=utf-8
+Expires: Mon, 11 May 2020 15:05:43 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Mon, 11 May 2020 15:05:43 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+
+{"id":"5eb969c27669b225496b3c03","idBoard":"5eb969c2a7c67983a0caefa7","name":"","color":"green","limits":{}}
+<-- END HTTP (108-byte body)
+
+]]></system-out>
+    <system-err><![CDATA[1589209530142	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1589209532629	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+]]></system-err>
+  </testcase>
+  <testcase name="unArchiveListUi" classname="TrelloTests" time="10.612">
+    <failure message="Element not found {a.js-open-more}&#10;Expected: visible or transparent: visible or have css value opacity=0&#10;Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.png&#10;Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.html&#10;Timeout: 4 s.&#10;Caused by: NoSuchElementException: Unable to locate element: a.js-open-more" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {a.js-open-more}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: a.js-open-more
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: a.js-open-more
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=a.js-open-more}
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+</failure>
+  </testcase>
+  <testcase name="deleteLabelUi" classname="TrelloTests" time="10.573">
+    <failure message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: RemoteWebDriver
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: java.lang.reflect.InvocationTargetException
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {div.js-card-details}
+Expected: exist
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: div.js-card-details
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: div.js-card-details
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9GD8AIJ', ip: '169.254.128.69', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=div.js-card-details}
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+</failure>
+  </testcase>
 </testsuite>

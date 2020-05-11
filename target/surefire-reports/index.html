@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="deleteLabelUi">deleteLabelUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="deleteMemberUi">deleteMemberUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="unArchiveListUi">unArchiveListUi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,27 +131,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="deleteLabelUi">deleteLabelUi</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="deleteMember">deleteMember</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="deleteMemberUi">deleteMemberUi</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="unArchiveList">unArchiveList</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="TrelloTests" hash-for-method="unArchiveListUi">unArchiveListUi</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -142,6 +151,177 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TrelloTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLabelUi">
+                  </a> <!-- deleteLabelUi -->
+                  <span class="method-name">deleteLabelUi</span>
+                  <div class="stack-trace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
+	at ui.UiRequest.deleteLabelUi_aroundBody4(UiRequest.java:61)
+	at ui.UiRequest$AjcClosure5.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.deleteLabelUi(UiRequest.java:59)
+	at TrelloTests.deleteLabelUi(TrelloTests.java:47)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 44 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 56 more
+Caused by: Element not found {div.js-card-details}
+Expected: exist
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209586499.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: div.js-card-details
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:131)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy27.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 61 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: div.js-card-details
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=div.js-card-details}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:30)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.commands.GetWrappedElement.execute(GetWrappedElement.java:11)
+	at com.codeborne.selenide.commands.GetWrappedElement.execute(GetWrappedElement.java:8)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:148)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	... 67 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteMemberUi">
+                  </a> <!-- deleteMemberUi -->
+                  <span class="method-name">deleteMemberUi</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: NoSuchElementException: Unable to locate element: div[title=&apos;Board485.4844135990989&apos;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at ui.UiRequest.deleteMember_aroundBody0(UiRequest.java:39)
+	at ui.UiRequest$AjcClosure1.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.deleteMember(UiRequest.java:38)
+	at TrelloTests.deleteMemberUi(TrelloTests.java:43)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unArchiveListUi">
+                  </a> <!-- unArchiveListUi -->
+                  <span class="method-name">unArchiveListUi</span>
+                  <div class="stack-trace">Element not found {a.js-open-more}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.png
+Page source: file:/D:/QA%20School/TrelloTests%20_API_UI/build/reports/tests/1589209575879.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: a.js-open-more
+	at com.codeborne.selenide.impl.WebElementSource.createElementNotFoundError(WebElementSource.java:37)
+	at com.codeborne.selenide.impl.ElementFinder.createElementNotFoundError(ElementFinder.java:100)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:65)
+	at com.codeborne.selenide.impl.WebElementSource.findAndAssertElementIsInteractable(WebElementSource.java:87)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:13)
+	at com.codeborne.selenide.commands.Click.execute(Click.java:9)
+	at com.codeborne.selenide.commands.Commands.execute(Commands.java:148)
+	at com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:99)
+	at com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:65)
+	at com.sun.proxy.$Proxy27.click(Unknown Source)
+	at ui.UiRequest.unArchiveListUi_aroundBody2(UiRequest.java:50)
+	at ui.UiRequest$AjcClosure3.run(UiRequest.java:1)
+	at io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)
+	at ui.UiRequest.unArchiveListUi(UiRequest.java:50)
+	at TrelloTests.unArchiveListUi(TrelloTests.java:45)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: a.js-open-more
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-9GD8AIJ&apos;, ip: &apos;169.254.128.69&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4608, moz:profile: C:\Users\Таня\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e21e8f66-5102-4290-bf8d-6031268c4caa
+*** Element info: {Using=css selector, value=a.js-open-more}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.codeborne.selenide.impl.WebElementSelector.findElement(WebElementSelector.java:30)
+	at com.codeborne.selenide.impl.ElementFinder.getWebElement(ElementFinder.java:74)
+	at com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:50)
+	... 43 more
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -157,13 +337,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteLabelUi">
-                  </a> <!-- deleteLabelUi -->
-                  <span class="method-name">deleteLabelUi</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="deleteMember">
                   </a> <!-- deleteMember -->
                   <span class="method-name">deleteMember</span>
@@ -171,23 +344,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="deleteMemberUi">
-                  </a> <!-- deleteMemberUi -->
-                  <span class="method-name">deleteMemberUi</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="unArchiveList">
                   </a> <!-- unArchiveList -->
                   <span class="method-name">unArchiveList</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="unArchiveListUi">
-                  </a> <!-- unArchiveListUi -->
-                  <span class="method-name">unArchiveListUi</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -277,34 +436,34 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deleteLabelUi')
+data.setCell(0, 1, 'deleteMemberUi')
 data.setCell(0, 2, 'TrelloTests')
-data.setCell(0, 3, 11739);
+data.setCell(0, 3, 20069);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteMemberUi')
+data.setCell(1, 1, 'unArchiveListUi')
 data.setCell(1, 2, 'TrelloTests')
-data.setCell(1, 3, 11145);
+data.setCell(1, 3, 10607);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'unArchiveListUi')
+data.setCell(2, 1, 'deleteLabelUi')
 data.setCell(2, 2, 'TrelloTests')
-data.setCell(2, 3, 2468);
+data.setCell(2, 3, 10564);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'deleteMember')
 data.setCell(3, 2, 'TrelloTests')
-data.setCell(3, 3, 1046);
+data.setCell(3, 3, 3491);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'unArchiveList')
 data.setCell(4, 2, 'TrelloTests')
-data.setCell(4, 3, 283);
+data.setCell(4, 3, 332);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'deleteLabel')
 data.setCell(5, 2, 'TrelloTests')
-data.setCell(5, 3, 268);
+data.setCell(5, 3, 280);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -337,51 +496,57 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteMember</span>
-                <span class="method-start">2734 ms</span>
+                <span class="method-start">3653 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">unArchiveList</span>
-                <span class="method-start">4215 ms</span>
+                <span class="method-start">7641 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteLabel</span>
-                <span class="method-start">4509 ms</span>
+                <span class="method-start">7981 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBoard</span>
-                <span class="method-start">4779 ms</span>
+                <span class="method-start">8263 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">driverSetup</span>
-                <span class="method-start">5340 ms</span>
+                <span class="method-start">8857 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">5510 ms</span>
+                <span class="method-start">9058 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">setUp</span>
-                <span class="method-start">33994 ms</span>
+                <span class="method-start">28258 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">deleteMemberUi</span>
-                <span class="method-start">35755 ms</span>
+                <span class="method-start">33146 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">unArchiveListUi</span>
-                <span class="method-start">46904 ms</span>
+                <span class="method-start">53243 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">deleteLabelUi</span>
-                <span class="method-start">49374 ms</span>
+                <span class="method-start">63858 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">deleteBoard</span>
-                <span class="method-start">61116 ms</span>
+                <span class="method-start">74430 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">close</span>
-                <span class="method-start">61951 ms</span>
+                <span class="method-start">75255 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

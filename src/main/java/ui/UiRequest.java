@@ -32,8 +32,8 @@ public class UiRequest{
         WebElement element = wait1.until(ExpectedConditions.elementToBeClickable($("div input[name='password']")));
         element.sendKeys("1Qwerty7",Keys.ENTER);
     }
-    @Epic("UI Tests")
-    @Step("Удаление пользователя с доски")
+    @Epic(value = "UI Tests")
+    @Step("deleting of member")
     public int deleteMember(String boardName){
         WebElement board = new WebDriverWait(driver,10)
                 .until(ExpectedConditions.elementToBeClickable($("div[title='"+boardName+"']")));
@@ -44,8 +44,8 @@ public class UiRequest{
         List<WebElement> elements= driver.findElements(memberInitials);
         return elements.size();
     }
-    @Epic("UI Tests")
-    @Step("Разархивация списка")
+    @Epic(value = "UI Tests")
+    @Step("Unarchive list")
     public String unArchiveListUi(){
         $("a.js-open-more").click();
         $("a.js-open-archive").click();
@@ -53,8 +53,8 @@ public class UiRequest{
         $(".button-link").click();
         return $("textarea.list-header-name").getText();
     }
-    @Epic("UI Tests")
-    @Step("Удаление лейбла из карточки")
+    @Epic(value = "UI Tests")
+    @Step("Deleting of label")
     public boolean deleteLabelUi(String color){
         Actions actions = new Actions(driver);
         WebElement elementLocator = $("div.js-card-details");
